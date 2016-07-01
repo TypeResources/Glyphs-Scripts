@@ -4,7 +4,7 @@ import urllib
 import webbrowser
 
 # Variables
-baseUrl = "https://typeresources.github.io/glyph-gazer/?q="
+baseUrl = "https://typeresources.github.io/glyph-gazer/?text="
 
 
 # Get text content of currently open tab in Glyphs
