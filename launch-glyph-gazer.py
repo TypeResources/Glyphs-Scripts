@@ -8,7 +8,7 @@ baseUrl = "https://typeresources.github.io/glyph-gazer/?text="
 
 
 # Get text content of currently open tab in Glyphs
-currentText = Glyphs.font.currentText
+currentText = Glyphs.font.currentTab.text
 
 # Convert encoding to UTF-8
 currentTextUTF8 = currentText.encode('UTF-8','strict')
